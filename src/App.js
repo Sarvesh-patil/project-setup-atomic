@@ -1,9 +1,11 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
 
 export default function App() {
   return (
-    <div>
-      <p>React application has been setup using Atomic methodology</p>
-    </div>
+    <Router>
+      <AppRoutes />
+    </Router>
   );
 }

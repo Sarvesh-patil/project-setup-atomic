@@ -1,7 +1,8 @@
 body {
-    font-family: fantasy
+    font-family: monospace
 }
 
-p {
-    font-size: 2rem;
+a {
+    font-size: 1.2rem;
+    color: coral;
 }
